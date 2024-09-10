@@ -1,0 +1,8 @@
+<!--pages/danmu/viewer.wxml-->
+
+<view class="page">
+    <navigation-bar title="观看弹幕" back="{{false}}" color="black" background="#FFF"></navigation-bar>   
+    <view class="page_pb">
+        
+    </view>
+</view>

@@ -1,0 +1,35 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.danmu-input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Adjust width as needed */
+}
+
+.danmu-input {
+    flex: 1; /* Allow the input to take up the available width */
+    background-color: #e0e0e0; /* Deeper background color */
+    border: 2px solid #ccc; /* Add border */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px; /* Space between the input and button */
+    box-sizing: border-box; /* Ensure padding doesn't increase width */
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    white-space: nowrap;
+}

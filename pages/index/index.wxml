@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<navigation-bar title="发送弹幕" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<view class="container">
+<view class="danmu-input-wrapper">
+    <form bindsubmit="onTapSubmit">    
+        <input class="danmu-input" placeholder="输入弹幕"  model:value="{{msg}}"></input>
+        <button class="submit-button" type="primary" size="default" disabled="{{!msg}}" formType="submit">发送</button>
+    </form>
+</view> 
+</view>
+

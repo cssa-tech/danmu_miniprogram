@@ -1,0 +1,6 @@
+/* pages/danmu/viewer.wxss */
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
